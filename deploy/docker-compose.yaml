@@ -1,0 +1,5 @@
+services:
+  nginx:
+    image: nginx:alpine
+  main:
+     image: main:latest
