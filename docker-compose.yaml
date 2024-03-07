@@ -1,0 +1,10 @@
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8001:80"
+  main:
+     image: main:latest
+     #build: .
+     ports:
+       - "8000:8000"
